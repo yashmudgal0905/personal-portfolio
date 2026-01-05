@@ -1,22 +1,19 @@
 import { motion } from "framer-motion";
 import {
   FaEnvelope,
-  FaPhoneAlt,
   FaMapMarkerAlt,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
-  FaInstagram,
 } from "react-icons/fa";
 
 export default function Contact() {
   return (
     <div className="max-w-6xl mx-auto px-6">
 
-      {/* TOP TEXT */}
-      <p className="text-center text-gray-600 mb-16">
-        I'm always open to discussing new opportunities, interesting projects,
-        or just having a chat about technology.
+      <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
+        I'm open to new opportunities, freelance work, internships, or full-time
+        roles. Feel free to reach out if you'd like to collaborate or discuss
+        exciting projects.
       </p>
 
       <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -28,12 +25,11 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
 
           <p className="text-gray-600 mb-10">
-            Feel free to reach out if you have any questions, want to collaborate
-            on a project, or just want to connect. I'll get back to you as soon as
-            possible!
+            Have a project in mind or looking for a passionate developer?
+            I’d love to hear from you and will respond as quickly as possible.
           </p>
 
           {/* EMAIL */}
@@ -43,18 +39,12 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-semibold">Email</p>
-              <p className="text-gray-600">yashmudgal0905@gmail.com</p>
-            </div>
-          </div>
-
-          {/* PHONE */}
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-green-100 text-green-600">
-              <FaPhoneAlt />
-            </div>
-            <div>
-              <p className="font-semibold">Phone</p>
-              <p className="text-gray-600">7310594790</p>
+              <a
+                href="mailto:yashmudgal0905@gmail.com"
+                className="text-gray-600 hover:text-blue-600"
+              >
+                yashmudgal0905@gmail.com
+              </a>
             </div>
           </div>
 
@@ -65,16 +55,17 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-semibold">Location</p>
-              <p className="text-gray-600">Ghaziabad, Delhi, India</p>
+              <p className="text-gray-600">Ghaziabad, India</p>
             </div>
           </div>
 
-          {/* SOCIALS */}
-          <h3 className="font-semibold mb-4">Follow Me</h3>
+          {/* SOCIAL */}
+          <h3 className="font-semibold mb-4">Professional Profiles</h3>
           <div className="flex gap-4 text-xl">
             <a
               href="https://github.com/harshitsharmaa0905"
               target="_blank"
+              rel="noreferrer"
               className="w-12 h-12 flex items-center justify-center rounded-lg bg-gray-900 text-white hover:scale-110 transition"
             >
               <FaGithub />
@@ -83,23 +74,10 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/yash-mudgal-b587502a9"
               target="_blank"
+              rel="noreferrer"
               className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-600 text-white hover:scale-110 transition"
             >
               <FaLinkedin />
-            </a>
-
-            <a
-              href="#"
-              className="w-12 h-12 flex items-center justify-center rounded-lg bg-sky-500 text-white hover:scale-110 transition"
-            >
-              <FaTwitter />
-            </a>
-
-            <a
-              href="#"
-              className="w-12 h-12 flex items-center justify-center rounded-lg bg-pink-500 text-white hover:scale-110 transition"
-            >
-              <FaInstagram />
             </a>
           </div>
         </motion.div>
@@ -116,29 +94,33 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-4 border rounded-lg"
+              required
+              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <input
               type="email"
-              placeholder="your.email@example.com"
-              className="w-full p-4 border rounded-lg"
+              placeholder="Your Email"
+              required
+              className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           <input
             type="text"
-            placeholder="How can I help you?"
-            className="w-full p-4 border rounded-lg"
+            placeholder="Subject"
+            required
+            className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
 
           <textarea
             rows="5"
-            placeholder="Tell me about your project or just say hello!"
-            className="w-full p-4 border rounded-lg"
+            placeholder="Write your message here..."
+            required
+            className="w-full p-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
 
           <button
-            type="button"
+            type="submit"
             className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-4 rounded-lg font-semibold hover:opacity-90 transition"
           >
             Send Message ✈️

@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <div className="max-w-6xl mx-auto px-6">
 
-      {/* HEADING (Option 1 – Purple underline) */}
+      {/* HEADING */}
       <div className="mb-16 text-center relative">
         <h2 className="text-4xl font-bold text-white relative inline-block">
           Education
@@ -25,24 +25,27 @@ export default function Education() {
           className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-xl transition"
         >
           <h3 className="text-2xl font-bold mb-1">
-            Master in Computer Application
+            Master of Computer Applications (MCA)
           </h3>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-1">
             SRM Institute of Science and Technology
+          </p>
+          <p className="text-sm text-gray-500 mb-4">
+            2024 – 2026
           </p>
 
           <p className="text-gray-600 mb-4 leading-relaxed">
-            Currently pursuing Master of Computer Applications with a
-            focus on full-stack web development and software engineering
-            fundamentals.
+            Currently pursuing MCA with specialization in Full-Stack Web
+            Development and Software Engineering, focusing on building scalable
+            and real-world applications.
           </p>
 
           <ul className="list-disc list-inside text-gray-600 space-y-2">
-            <li>Cloud Computing</li>
-            <li>MERN Stack</li>
-            <li>Java</li>
+            <li>MERN Stack Development</li>
+            <li>Cloud Computing & DevOps Basics</li>
+            <li>Java & Object-Oriented Programming</li>
             <li>Android Application Development</li>
-            <li>CGPA: 8</li>
+            <li><span className="font-semibold">CGPA:</span> 8.0</li>
           </ul>
         </motion.div>
 
@@ -56,23 +59,26 @@ export default function Education() {
           className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-xl transition"
         >
           <h3 className="text-2xl font-bold mb-1">
-            Bachelor in Computer Application
+            Bachelor of Computer Applications (BCA)
           </h3>
-          <p className="text-gray-600 mb-4">
-            INMANTEC (CCSU)
+          <p className="text-gray-600 mb-1">
+            INMANTEC College, CCS University
+          </p>
+          <p className="text-sm text-gray-500 mb-4">
+            2021 – 2024
           </p>
 
           <p className="text-gray-600 mb-4 leading-relaxed">
-            Completed Bachelor of Computer Applications with a strong
-            foundation in programming, databases, and web technologies.
+            Completed BCA with a strong foundation in programming, databases,
+            and web technologies, along with hands-on academic projects.
           </p>
 
           <ul className="list-disc list-inside text-gray-600 space-y-2">
-            <li>Software Engineering</li>
-            <li>DBMS</li>
-            <li>Web Development</li>
-            <li>Data Structures</li>
-            <li>CGPA: 7.3</li>
+            <li>Data Structures & Algorithms</li>
+            <li>Database Management Systems (DBMS)</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Software Engineering Principles</li>
+            <li><span className="font-semibold">CGPA:</span> 7.3</li>
           </ul>
         </motion.div>
 

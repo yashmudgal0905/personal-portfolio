@@ -26,27 +26,27 @@ export default function About() {
           viewport={{ once: true }}
         >
           <h3 className="text-2xl font-semibold mb-4">
-            Passionate Developer & Problem Solver
+            Full-Stack Developer & Problem Solver
           </h3>
 
           <p className="text-gray-600 leading-relaxed mb-4">
-            I'm a passionate full-stack developer with a strong foundation in
-            building responsive and user-friendly web applications. I enjoy
-            transforming ideas into real-world digital solutions using clean
-            code and modern technologies.
+            I am a motivated Full-Stack Developer with hands-on experience in
+            building responsive, scalable, and user-focused web applications.
+            I enjoy converting real-world problems into clean, efficient digital
+            solutions using modern web technologies.
           </p>
 
           <p className="text-gray-600 leading-relaxed">
-            As a recent graduate, I’ve completed several hands-on projects and
-            internships that strengthened my skills in both frontend and backend
-            development.
+            I have worked on multiple real-world projects including rental
+            platforms, management systems, and portfolio websites, gaining
+            strong experience in both frontend and backend development.
           </p>
 
           {/* Stats Card */}
           <div className="mt-6 bg-gray-100 rounded-xl p-6 inline-block">
             <p className="text-3xl font-bold text-blue-600">10+</p>
             <p className="text-gray-600">
-              Projects Completed
+              Real-World Projects Completed
             </p>
           </div>
         </motion.div>
@@ -60,30 +60,30 @@ export default function About() {
           className="grid sm:grid-cols-2 gap-6"
         >
           <div className="bg-white p-6 rounded-xl shadow">
-            <h4 className="font-semibold mb-2">API Integration</h4>
+            <h4 className="font-semibold mb-2">Frontend Development</h4>
             <p className="text-gray-600 text-sm">
-              Connecting frontend with backend systems smoothly
+              Building responsive UI using React, Tailwind CSS, and JavaScript
             </p>
           </div>
 
           <div className="bg-white p-6 rounded-xl shadow">
-            <h4 className="font-semibold mb-2">Clean Code</h4>
+            <h4 className="font-semibold mb-2">Backend & APIs</h4>
             <p className="text-gray-600 text-sm">
-              Writing maintainable and scalable code
+              RESTful APIs with Node.js, Express.js, and MongoDB
             </p>
           </div>
 
           <div className="bg-white p-6 rounded-xl shadow">
-            <h4 className="font-semibold mb-2">Responsive Design</h4>
+            <h4 className="font-semibold mb-2">Clean & Scalable Code</h4>
             <p className="text-gray-600 text-sm">
-              Mobile-first approach to web development
+              Writing maintainable, reusable, and optimized code
             </p>
           </div>
 
           <div className="bg-white p-6 rounded-xl shadow">
-            <h4 className="font-semibold mb-2">Team Player</h4>
+            <h4 className="font-semibold mb-2">Team & Learning Mindset</h4>
             <p className="text-gray-600 text-sm">
-              Collaborative development and mentoring
+              Strong collaboration skills with continuous learning attitude
             </p>
           </div>
         </motion.div>
